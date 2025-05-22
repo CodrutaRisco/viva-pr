@@ -25,13 +25,18 @@ npm start
 
 This will launch the Expo development server. You can scan the QR code with the Expo Go app on your phone.
 
-
 📦 Tech Stack
--React Native
+React Native
 
--Expo
+Expo
 
--React Native Paper
+React Native Paper
+
+Expo Auth Session (expo-auth-session)
+
+React Native Dotenv (react-native-dotenv)
+
+EAS CLI (eas-cli)
 
 
 ✨ Features
@@ -41,6 +46,24 @@ This will launch the Expo development server. You can scan the QR code with the 
 
 -Clean & modern UI using React Native Paper
 
+-Expo EAS configuration for cloud builds
+
+-Environment variables support for safe API key management
+
+
+📲 Building with EAS
+Install EAS CLI if you haven't already:
+
+
+npm install -g eas-cli
+
+Then run:
+
+eas login
+
+eas build --platform android
+
+This will build your Android app using Expo's cloud infrastructure.
 
 
 
